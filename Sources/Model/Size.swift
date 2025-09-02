@@ -12,4 +12,17 @@ public enum Size {
     case medium
     case large
     case extraLarge
+    
+    var name: String {
+        switch self {
+        case .small:
+            return "Small"
+        case .medium:
+            return "Medium"
+        case .large:
+            return "Large"
+        case .extraLarge:
+            return "Extra Large"
+        }
+    }
 }
