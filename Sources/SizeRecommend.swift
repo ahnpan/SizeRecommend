@@ -9,6 +9,10 @@ import Foundation
 
 public class SizeRecommend {
         
+    public init() {
+        
+    }
+    
     public func getBMI(
         height: Double,
         weight: Double
