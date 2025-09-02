@@ -13,7 +13,7 @@ public enum Size {
     case large
     case extraLarge
     
-    var name: String {
+    public var name: String {
         switch self {
         case .small:
             return "Small"
